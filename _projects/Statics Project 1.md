@@ -12,6 +12,8 @@ As part of a class project, we had to design a frame/mechanism to lift the maxim
 
 
 ![](/assets/images/Statics-Project-1-image-1.png)
+![](/assets/images/Statics-Project-1-image-2.png)
+![](/assets/images/Statics-Project-1-image-3.png)
 
 ![]({{ '/assets/images/Statics-Project-1-image-1.png' | relative_url }})
 ![]({{ '/assets/images/Statics-Project-1-image-2.png' | relative_url }})
