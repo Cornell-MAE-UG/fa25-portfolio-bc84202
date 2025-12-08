@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Brandon Chiang
 description              : Brandon Chiang - Projects and CV 
-baseurl                  : "CornellMAEPortfolio" # Set this to your repo name 
+baseurl                  : "/fa25-portfolio-bc84202" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
