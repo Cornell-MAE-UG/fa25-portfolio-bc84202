@@ -26,10 +26,10 @@ For counter flow, the setup was very similar, but the hot resevoir's inlet was o
 Note that the water from the hot resevoir was dyed with red food coloring and water from the cold resevoir was dyed with blue food coloring for clarity.
 
 ## Results
-| Type         | Thi (°C)    | Tho (°C)     | Tci (°C)    | Tco (°C)     |
-|--------------|-------------|--------------|-------------|--------------|
-| Parallel-flow| 35.0        | 23.7         | 8.7         | 21.1         |
-| Counter-flow | 35.0        | 18.4         | 7.5         | 23.1         |
+| Type          | Thi (°C)    | Tho (°C)     | Tci (°C)    | Tco (°C)     |
+|-------------- |-------------|--------------|-------------|--------------|
+| Parallel-flow | 35.0        | 23.7         | 8.7         | 21.1         |
+| Counter-flow  | 35.0        | 18.4         | 7.5         | 23.1         |
 
 Flow rate: 210 gallons/hour
 ## Analysis
