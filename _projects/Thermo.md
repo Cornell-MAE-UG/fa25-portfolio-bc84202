@@ -17,7 +17,7 @@ For the parallel flow, we set it up by connecting a pipe from the hot resevoir t
 
 For counter flow, the setup was very similar, but the hot resevoir's inlet was on the other side(here it's the right side) so the fluids would flow in opposite directions.
 
-![Shaded rendering of earlier version]({{ "/assets/images/Thermo-setup2.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Shaded rendering of earlier version]({{ "/assets/images/Thermo-setup2.png" | relative_url }})
 
 Note that the water from the hot resevoir was dyed with red food coloring and water from the cold resevoir was dyed with blue food coloring for clarity.
 
@@ -26,3 +26,6 @@ Note that the water from the hot resevoir was dyed with red food coloring and wa
 |--------------|-------------|--------------|-------------|--------------|
 | Parallel-flow    | 35.0        | 23.7         | 8.7         | 21.1         |
 | Counter-flow | 35.0        | 18.4         | 9.2         | 22.1         |
+
+## Analysis
+![Shaded rendering of earlier version]({{ "/assets/images/Thermo-analysis.png" | relative_url }})
