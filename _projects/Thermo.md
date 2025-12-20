@@ -2,7 +2,7 @@
 layout: project
 title: Thermo Heat Exhcnager Lab
 description: A lab in thermo where we analyzed a heat exchanger
-image: /assets/images/Thermo-setup1.png
+image: ../assets/images/Thermo-setup1.png
 ---
 
 ## Overview
@@ -20,3 +20,9 @@ For counter flow, the setup was very similar, but the hot resevoir's inlet was o
 ![Shaded rendering of earlier version]({{ "/assets/images/Thermo-setup2.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 Note that the water from the hot resevoir was dyed with red food coloring and water from the cold resevoir was dyed with blue food coloring for clarity.
+
+## Results
+| Type     | Thi (°C) | Tho (°C) | Tci (°C) | Tco (°C) |
+|--------------|-------------|--------------|-------------|--------------|
+| Parallel-flow    | 35.0        | 23.7         | 8.7         | 21.1         |
+| Counter-flow | 35.0        | 18.4         | 9.2         | 22.1         |
