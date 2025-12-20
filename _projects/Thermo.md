@@ -30,7 +30,7 @@ Note that the water from the hot resevoir was dyed with red food coloring and wa
 Flow rate: 210 gallons/hour
 ## Analysis
 <img src="cornell-mae-ug.github.io/fa25-portfolio-bc84202/assets/images/Thermo-analysis.png"
-     alt="aa"
+     alt="aaa"
      style="max-width: 50%; height: auto; display: block; margin: 0 auto;">
 
 Using our data, we can see that for the parallel flow, Qdot=11.413952kJ when calculated with the cold flow and Qdot=10.401424kJ when calculated with the hot flow. These values are similar, but not exactly the same as predicted. This is likely due to some heat loss to the surrounding environment while the heat was still trasfering.
