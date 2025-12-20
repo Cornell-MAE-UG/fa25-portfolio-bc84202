@@ -1,0 +1,21 @@
+---
+layout: project
+title: Thermo Heat Exhcnager Lab
+description: A lab in thermo where we analyzed a heat exchanger
+images:
+    - /assets/images/Thermo-setup1.png
+---
+
+## Overview
+In our Thermo class, we had a lab where we analyzed a small heat exchanger. This heat exchanger worked by taking in two flows and running them right next to each other while not allowing them to mix. The flows are split by metal, which acts as a heat conductor to allow heat to transfer. The heat exchanger also splits each flow up into multiple smaller flows as to maximize the surface area of the flow touching the metal, allowing more heat to transfer faster.
+
+We had a hot resevoir and a cold resevoir of water, and we set up the heat exchanger so that we ran it twice with parallel flow, and twice with counter flow to compare and see which one is better.
+
+## Setup
+For the parallel flow, we set it up by connecting a pipe from the hot resevoir to an inlet of the heat exchanger, and another pipe from the outlet to a bin so we can measure the temperature afterwards. We did the same with the cold resevoir, using the same side for inlet as the hot resevoir's inlet and our setup looked like this:
+![alt text](../assets/images/Thermo-setup1.png)
+
+For counter flow, the setup was very similar, but the hot resevoir's inlet was on the other side(here it's the right side) so the fluids would flow in opposite directions.
+
+![alt text](../assets/images/Thermo-setup2.png)
+Note that the water from the hot resevoir was dyed with red food coloring and water from the cold resevoir was dyed with blue food coloring for clarity.
