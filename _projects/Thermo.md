@@ -2,7 +2,7 @@
 layout: project
 title: Thermo Heat Exhcnager Lab
 description: A lab in thermo where we analyzed a heat exchanger
-image: assets/images/Thermo-setup1.png
+image: /assets/images/Thermo-setup1.png
 ---
 
 ## Overview
