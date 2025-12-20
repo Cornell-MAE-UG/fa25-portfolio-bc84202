@@ -22,10 +22,19 @@ For counter flow, the setup was very similar, but the hot resevoir's inlet was o
 Note that the water from the hot resevoir was dyed with red food coloring and water from the cold resevoir was dyed with blue food coloring for clarity.
 
 ## Results
-| Type     | Thi (°C) | Tho (°C) | Tci (°C) | Tco (°C) |
+| Type         | Thi (°C)    | Tho (°C)     | Tci (°C)    | Tco (°C)     |
 |--------------|-------------|--------------|-------------|--------------|
-| Parallel-flow    | 35.0        | 23.7         | 8.7         | 21.1         |
-| Counter-flow | 35.0        | 18.4         | 9.2         | 22.1         |
-
+| Parallel-flow| 35.0        | 23.7         | 8.7         | 21.1         |
+| Counter-flow | 35.0        | 18.4         | 7.5         | 23.1         |
+Flow rate: 210 gallons/hour
 ## Analysis
 ![Shaded rendering of earlier version]({{ "/assets/images/Thermo-analysis.png" | relative_url }})
+<img src="/assets/images/Thermo-analysis.png"
+     alt=""
+     style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+
+Using our data, we can see that for the parallel flow, Qdot=11.413952kJ when calculated with the cold flow and Qdot=10.401424kJ when calculated with the hot flow. These values are similar, but not exactly the same as predicted. This is likely due to some heat loss to the surrounding environment while the heat was still trasfering.
+
+For the counter flow, Qdot=14.359488kJ when calculated with the cold flow and Qdot=15.279968kJ when calculated with the hot flow. We can see that once again the values were similar. For the counter flow, we can easily see that significantly more heat transfer was happening.
+
+There is likely more heat transfering 
