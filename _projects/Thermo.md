@@ -13,9 +13,11 @@ We had a hot resevoir and a cold resevoir of water, and we set up the heat excha
 
 ## Setup
 For the parallel flow, we set it up by connecting a pipe from the hot resevoir to an inlet of the heat exchanger, and another pipe from the outlet to a bin so we can measure the temperature afterwards. We did the same with the cold resevoir, using the same side for inlet as the hot resevoir's inlet and our setup looked like this:
-![alt text](../assets/images/Thermo-setup1.png)
+
+![Shaded rendering of earlier version]({{ "/assets/images/Thermo-setup1.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 For counter flow, the setup was very similar, but the hot resevoir's inlet was on the other side(here it's the right side) so the fluids would flow in opposite directions.
 
-![alt text](../assets/images/Thermo-setup2.png)
+![Shaded rendering of earlier version]({{ "/assets/images/Thermo-setup2.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+
 Note that the water from the hot resevoir was dyed with red food coloring and water from the cold resevoir was dyed with blue food coloring for clarity.
