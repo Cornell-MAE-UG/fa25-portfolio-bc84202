@@ -2,7 +2,7 @@
 layout: project
 title: Thermo Heat Exhcnager Lab
 description: A lab in thermo where we analyzed a heat exchanger
-image: ../assets/images/Thermo-setup1.png
+image: assets/images/Thermo-setup1.png
 ---
 
 ## Overview
@@ -13,11 +13,15 @@ We had a hot resevoir and a cold resevoir of water, and we set up the heat excha
 ## Setup
 For the parallel flow, we set it up by connecting a pipe from the hot resevoir to an inlet of the heat exchanger, and another pipe from the outlet to a bin so we can measure the temperature afterwards. We did the same with the cold resevoir, using the same side for inlet as the hot resevoir's inlet and our setup looked like this:
 
-![Shaded rendering of earlier version]({{ "/assets/images/Thermo-setup1.png" | relative_url }}){style="width: 200px"}
+<img src="../../assets/images/Thermo-setup1.png"
+     alt="aaaa"
+     style="max-width: 50%; height: auto; display: block; margin: 0 auto;">
 
 For counter flow, the setup was very similar, but the hot resevoir's inlet was on the other side(here it's the right side) so the fluids would flow in opposite directions.
 
-![Shaded rendering of earlier version]({{ "/assets/images/Thermo-setup2.png" | relative_url }})
+<img src="../../assets/images/Thermo-setup2.png"
+     alt="aaaa"
+     style="max-width: 50%; height: auto; display: block; margin: 0 auto;">
 
 Note that the water from the hot resevoir was dyed with red food coloring and water from the cold resevoir was dyed with blue food coloring for clarity.
 
