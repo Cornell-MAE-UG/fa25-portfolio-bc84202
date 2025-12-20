@@ -2,7 +2,7 @@
 layout: project
 title: Thermo Heat Exhcnager Lab
 description: A lab in thermo where we analyzed a heat exchanger
-image: /assets/images/Thermo-setup1.png
+image: ../assets/images/Thermo-setup1.png
 ---
 
 ## Overview
@@ -26,6 +26,7 @@ Note that the water from the hot resevoir was dyed with red food coloring and wa
 |--------------|-------------|--------------|-------------|--------------|
 | Parallel-flow| 35.0        | 23.7         | 8.7         | 21.1         |
 | Counter-flow | 35.0        | 18.4         | 7.5         | 23.1         |
+
 Flow rate: 210 gallons/hour
 ## Analysis
 <img src="cornell-mae-ug.github.io/fa25-portfolio-bc84202/assets/images/Thermo-analysis.png"
@@ -36,4 +37,4 @@ Using our data, we can see that for the parallel flow, Qdot=11.413952kJ when cal
 
 For the counter flow, Qdot=14.359488kJ when calculated with the cold flow and Qdot=15.279968kJ when calculated with the hot flow. We can see that once again the values were similar. For the counter flow, we can easily see that significantly more heat transfer was happening.
 
-Note that for the outlet temperatures, for the counter flow, the cold water's outlet is actually hotter than the hot water's outlet. This is quite unintuitive as it would seems to make more sense if the hot water ends up hotter than the cold water. This could be due to the fact 
+Note that for the outlet temperatures, for the counter flow, the cold water's outlet is actually hotter than the hot water's outlet. This is quite unintuitive as it would seems to make more sense if the hot water ends up hotter than the cold water. This could be due to the fact that for the counter flow, the cold outlet ends up next to the hot inlet and the hot inlet ends up next to the cold outlet, so their temperature ends up flipped.
