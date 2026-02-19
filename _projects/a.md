@@ -1,3 +1,9 @@
+---
+layout: project
+title: idk
+description: idk
+---
+
 <!--
 Compile to PDF (example):
   pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
@@ -68,5 +74,3 @@ Focus on questions they can answer from lived experience.
 ## Figure
 
 <!-- ![<One-line caption. No full sentences.>](figures/<your_figure_filename>.png) -->
-
-
