@@ -3,11 +3,6 @@ layout: project
 title: MAE 2250 Client Pitch
 description: MAE 2250 Client Pitch
 image: /assets/images/slf.jpeg
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes: \pagenumbering{gobble}
 ---
 
 ## Attacking Spotted Lanternflies' Reproduction Rate
