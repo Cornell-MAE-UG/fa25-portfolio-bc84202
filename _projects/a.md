@@ -1,76 +1,57 @@
 ---
 layout: project
-title: idk
-description: idk
----
-
-<!--
-Compile to PDF (example):
-  pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
--->
-
----
+title: MAE 2250 Client Pitch
+description: MAE 2250 Client Pitch
+image: /assets/images/slf.jpeg
 fontsize: 11pt
 geometry: margin=1in
 papersize: letter
 pagestyle: empty
-header-includes:
-  - \pagenumbering{gobble}
+header-includes: \pagenumbering{gobble}
 ---
 
-# Your Project Title
+## Attacking Spotted Lanternflies' Reproduction Rate
+**Team:** _Team Dragonfly_ **Clients:** Cornell CALS Extension / E\&J Gallo Winery / National Grape
 
-**Team:** _Your Team Name_
-**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
+**Problem Statement:**
+Grape farmers in the Northeast US are invaded by spotted lanternflies (SLFs) that infiltrate harvests. The SLF population grows rapidly due to many nymphs surviving to adulthood, where they reproduce abundantly, increasing their population by a factor of 5.47. Current solutions primarily target adults, but rapid population growth is already occurring by this stage, increasing the severity of their impact regardless. 
 
-## Problem statement (most important)
+**Impact:**
+Decreasing SLF’s reproduction factor from 5.47 will slow down population increase and potentially stagnate it in an area, reducing the number of SLFs per vine from 400.
 
-<Who is affected?> is trying to <do what?> in <where/when?>, but <what currently goes wrong?>.
-What challenge currently makes obvious solutions difficult to implement?
-Add enough detail to narrow down the scope to the part of the problem you want to focus on.  
+**Concept A (primary): SLF Scraper**
 
-## Impact
-Give context for why solving this sub-problem addresses the client's user needs.
+The Scraper would be a device that makes it quicker and simpler for SLF egg masses to be removed and allow for accessibility of egg masses in hard-to-reach places. The user would spot egg masses visually or using the light feature, extend the scraper using telescoping feature, and remove the egg masses off the surface to be dispensed into scraper housing. 
 
-## Proposed direction(s)
+_Why it’s better than the status quo:_
 
-### Concept A (primary): <1-line name>
+- Current SLF scrapers are credit card-sized \& require close contact with the egg masses
+- Our scraper makes the process simpler & improves overall accessibility
 
-**What it is:** <1–2 sentences.>  
-**How it would be used:** <2–4 bullet “user flow” steps.>  
-**Why it’s better than the status quo:** <2–3 bullets.>  
-**End-of-semester proof-of-concept:** <what you can realistically build/test in MAE 2250.>  
+For our MVP, we will create a prototype that extends & contains egg masses and a preliminary UI. In the long term, we will create a working UI, camera system, and target reproducibility. 
 
-### Concepts B, C, etc.
+**Concept B: Nymph Netting**
 
-<Only include if you want the client to compare two directions. Keep short.>
+This involves weaving netting in a spiral formation to funnel and trap nymph SLFs that are unable to fly and climbing trees to feed, preventing them from reaching adulthood. This specifically targets nymphs and uses recent research to attract them by vibrating at a high frequency. 
 
-## Key risks / unknowns
+**Key risks/Unknowns**
 
-- <Risk 1> — why it matters, and how you’ll test it.
-- <Risk 2> — why it matters, and how you’ll test it.
-- <Risk 3> — why it matters, and how you’ll test it.
+- Netting may unintentionally impact other wildlife, which would have negative ecological effects. We can reduce this by testing smaller scale traps with different entry funnels and setups.
+- Even if the scraper is effective, without users consistently willing to use it, it will not impact the SLFs. To reduce this, we will create a survey to prioritize user input and improve our design based on their advice. 
 
-## Questions for the client
-Focus on questions they can answer from lived experience.
-1. **<Question 1>**  
-   *Decision affected:* <what choice this answer changes for your team.>
-2. **<Question 2>**  
-   *Decision affected:* <what choice this answer changes for your team.>
-3. **<Question 3>**  
-   *Decision affected:* <what choice this answer changes for your team.>
-4. **<Question 4 (optional)>**  
-   *Decision affected:* <what choice this answer changes for your team.>
+**Questions**
+
+1. **What are your biggest gripes with current scrapers used to remove egg masses?**  
+   *Decision affected:* This will enable us to improve user comfort and efficiency. We can modify our scraper to match specific shapes or be more effective on certain textures if these are issues. 
+2. **What traps are currently in use - how do they lure the SLFs, and are they effective?** 
+   *Decision affected:* We can learn from these experiences to modify our traps (specifically the netting) to avoid ideas that do not work in practice.
+3. **What are the main barriers to removing egg masses: are they too high to reach, too hard to scrape off due to geometry of the object, or a difficult consistency?**  
+   *Decision affected:* Knowing this will allow us to design the geometry of the scraper for as many situations as possible and inform what features to focus on. 
 
 \newpage
 
-# Optional page 2 — References and/or one figure
+### References
 
-## References
-
-- <Source 1 (URL or citation)>
-- <Source 2 (URL or citation)>
-
-## Figure
-
-<!-- ![<One-line caption. No full sentences.>](figures/<your_figure_filename>.png) -->
+- https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spotted-lanternfly/spotted-lanternfly-reported-distribution-map
+- https://pubmed.ncbi.nlm.nih.gov/34302819/
+- https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spotted-lanternfly/spotted-lanternfly-damage
